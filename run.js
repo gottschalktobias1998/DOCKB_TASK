@@ -3,6 +3,8 @@ const fs = require('fs');
 const path = require('path');
 
 // Function to remove the 'dist' directory
+// TODO not optimal if you want to view the resulting output. If you you (Mr Holldack :P) encounter problems,
+// please run npm run build | npm run start
 function removeDist() {
   const distDir = path.join(__dirname, 'dist');
   if (fs.existsSync(distDir)) {
