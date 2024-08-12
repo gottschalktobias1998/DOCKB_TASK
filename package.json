@@ -5,7 +5,8 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "start:dev": "node run.js"
+    "start:dev": "node run.js",
+    "test": "node tests.js"
   },
   "dependencies": {},
   "devDependencies": {
